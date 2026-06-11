@@ -15,5 +15,8 @@ export default function HomeScreen({ navigation }){
         <Button 
             title="Go to ApiCall"
             onPress={() => navigation.navigate("ApiCall")} />
+        <Button 
+            title="Go to CounterScreen"
+            onPress={() => navigation.navigate("CounterScreen")} />
     </View>
 }
